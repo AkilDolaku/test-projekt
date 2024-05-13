@@ -1,0 +1,65 @@
+.firstrow, 
+.secondrow{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    background-color: red;
+    transition: transform 6s ease-out;
+    transform-origin: 0 0;
+}
+
+.blue{
+    background-color: blue;
+    transition: transform 6s ease-out;
+    transform-origin: 100px 0;
+}
+
+.yellow{
+    background-color: yellow;
+    transition: transform 6s ease-out;
+    transform-origin: 0 100px;
+}
+
+.green{
+    background-color: green;
+    transition: transform 6s ease-out;
+    transform-origin: 100px 100px;
+}
+
+.container:hover .firstrow .red{
+    transform: rotate(100000000000deg);
+}
+
+.container:hover .firstrow .blue{
+    transform: rotate(-10000000000deg);
+}
+
+.container:hover .secondrow .yellow{
+    transform: rotate(-10000000000deg);
+}
+
+.container:hover .secondrow .green{
+    transform: rotate(10000000000deg);
+}
+
+.firstrow{
+    margin-top: 300px;
+}
+
+h1{
+    position: relative;
+    top: 410px;
+    left: 370px;
+    font-size: 20px;
+    font-weight: 700;
+    z-index: -1;
+}

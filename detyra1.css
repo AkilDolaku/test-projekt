@@ -1,0 +1,31 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    transition: width 2s, height 4s;
+}
+
+div:hover{
+    width: 5000px;
+    background-color: aqua;
+    height: 800px;
+
+}
+
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 2s, height 4s;
+}
+
+.div1:hover{
+    width: 5000px;
+    background-color: yellow;
+    height: 800px;
+
+}
+
+body{
+    background-color: black;
+}
